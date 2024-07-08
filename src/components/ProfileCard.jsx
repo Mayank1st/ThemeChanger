@@ -8,9 +8,9 @@ const ProfileCard = ({ theme }) => {
   const navigate = useNavigate();
   const profile = JSON.parse(localStorage.getItem('profile'));
 
-  if (!profile) {
-    return <div>Loading...</div>; 
-  }
+  // if (!profile) {
+  //   return <div>Loading...</div>; 
+  // }
 
   return (
     <Box p={5} shadow="md" borderWidth="1px" bg={theme}>
